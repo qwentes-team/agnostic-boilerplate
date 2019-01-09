@@ -1,0 +1,9 @@
+{
+  "linters": {
+    "**/*.+(js|ts)": [
+      "tslint",
+      "prettier \"**/*.+(js|ts)\" --write --parser typescript",
+      "git add"
+    ]
+  }
+}
