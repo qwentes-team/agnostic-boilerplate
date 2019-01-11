@@ -6,24 +6,24 @@ import {Feature2Component} from './features/feature2/feature2.component';
 
 const routes: Routes = [
   {
-    path: 'uno',
+    path: 'one',
     pathMatch: 'full',
     component: Feature1Component,
   },
   {
-    path: 'due',
+    path: 'two',
     pathMatch: 'full',
     component: Feature2Component,
   },
   {
-    path: 'tre',
+    path: 'three',
     pathMatch: 'full',
     component: Feature3Component,
   },
   {
     path: '**',
     pathMatch: 'full',
-    redirectTo: 'uno',
+    redirectTo: 'one',
   },
 ];
 
